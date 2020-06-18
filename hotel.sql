@@ -62,14 +62,14 @@ INSERT INTO Rooms (`Number, ` level`, `style`, `view`, `beds`) VALUES ("512", "h
 INSERT INTO Rooms (`Number, ` level`, `style`, `view`, `beds`) VALUES ("444", "high", "double", "the sea", "2 beds")
 INSERT INTO Reservations (`Resnumber`, `Check in`, `checkout`) VALUES ("210","Monday 20/10/2019","Friday 25/10/2019")
 
-UPDATE Guests SET Fname = "Youssef", Lname= "Ali", Email="youssefali231@gmail.com" WHERE id=’200`;
-UPDATE Guests SET Fname = "Nabil" , Lname="Ahmed", Email="nabilahmed556@gmail.com" WHERE id=’210`;	                                                    
-UPDATE Guests SET Fname = "Mohamed", Lname="Ali", Email="mohamedali56@gmail.com" WHERE	id=’212`;
-UPDATE Guests SET Fname = "Khalid", Lname="Mohamed", Email="khalidmohamed500@gmail.com" WHERE id=’216`;
-UPDATE Guests SET Fname = "Mustafa", Lname="Mahmoud", Email="mustafamahmoud040@gmail.com" WHERE id=’220`;
+UPDATE Guests SET Fname = "Youssef", Lname= "Ali", Email="youssefali231@gmail.com" WHERE id= ’200`;
+UPDATE Guests SET Fname = "Nabil" , Lname= "Ahmed", Email="nabilahmed556@gmail.com" WHERE id= ’210`;	                                                    
+UPDATE Guests SET Fname = "Mohamed", Lname= "Ali", Email="mohamedali56@gmail.com" WHERE	id= ’212`;
+UPDATE Guests SET Fname = "Khalid", Lname= "Mohamed", Email="khalidmohamed500@gmail.com" WHERE id= ’216`;
+UPDATE Guests SET Fname = "Mustafa", Lname= "Mahmoud", Email="mustafamahmoud040@gmail.com" WHERE id= ’220`;
 
-DELETE FROM Guests WHERE Fname="Ahmed "; 
-DELETE FROM Guests WHERE Fname="Mohamed ";
-DELETE FROM Guests WHERE Lname="Ali";
-DELETE FROM Guests WHERE Lname="Mahmoud";
-DELETE FROM Rooms WHERE Level="low";
+DELETE FROM Guests WHERE Fname= "Ahmed "; 
+DELETE FROM Guests WHERE Fname= "Mohamed ";
+DELETE FROM Guests WHERE Lname= "Ali";
+DELETE FROM Guests WHERE Lname= "Mahmoud";
+DELETE FROM Rooms WHERE Level= "low";
